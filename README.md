@@ -2,10 +2,12 @@
 
 **Vehicle inventory REST API with a browser interface, command-line client, MySQL storage and a database-free demo mode.**
 
-![Java](https://img.shields.io/badge/Java-000?style=for-the-badge&logo=openjdk)
-![REST](https://img.shields.io/badge/REST-000?style=for-the-badge)
-![MySQL](https://img.shields.io/badge/MySQL-000?style=for-the-badge&logo=mysql)
-![Maven](https://img.shields.io/badge/Maven-000?style=for-the-badge&logo=apachemaven)
+![Java](https://img.shields.io/badge/Java-000?style=for-the-badge&logo=openjdk&logoColor=F89820&logoSize=auto)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css&logoColor=33A9DC)
+![REST API](https://img.shields.io/badge/REST_API-000?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-000?style=for-the-badge&logo=mysql&logoColor=FFFFFF&logoSize=auto)
+![Maven](https://img.shields.io/badge/Maven-000?style=for-the-badge&logo=apachemaven&logoColor=EA6274)
 
 ---
 
@@ -63,6 +65,7 @@ The original projects used NetBeans/Ant, an application server and Spanish Java 
 | Technology | Role |
 | --- | --- |
 | **Java 17+** | Server, console client and built-in HTTP listener |
+| **HTML5 / CSS** | Browser interface and styling |
 | **Gson** | JSON serialization and parsing |
 | **JDBC / MySQL Connector/J** | Persistent storage with prepared statements |
 | **JUnit 5** | HTTP integration tests in demo mode |
