@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-13T03:56:33.811Z",
+  "title": "Design System: The Motor Register",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "canonical": "#222824",
+        "tonalRamp": [
+          "oklch(15% 0.011 156.4)",
+          "oklch(25% 0.011 156.4)",
+          "oklch(35% 0.011 156.4)",
+          "oklch(45% 0.011 156.4)",
+          "oklch(55% 0.011 156.4)",
+          "oklch(65% 0.011 156.4)",
+          "oklch(78% 0.011 156.4)",
+          "oklch(95% 0.011 156.4)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#4e554e",
+        "tonalRamp": [
+          "oklch(15% 0.014 145.3)",
+          "oklch(25% 0.014 145.3)",
+          "oklch(35% 0.014 145.3)",
+          "oklch(45% 0.014 145.3)",
+          "oklch(55% 0.014 145.3)",
+          "oklch(65% 0.014 145.3)",
+          "oklch(78% 0.014 145.3)",
+          "oklch(95% 0.014 145.3)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#f1ece2",
+        "tonalRamp": [
+          "oklch(15% 0.014 84.6)",
+          "oklch(25% 0.014 84.6)",
+          "oklch(35% 0.014 84.6)",
+          "oklch(45% 0.014 84.6)",
+          "oklch(55% 0.014 84.6)",
+          "oklch(65% 0.014 84.6)",
+          "oklch(78% 0.014 84.6)",
+          "oklch(95% 0.014 84.6)"
+        ]
+      },
+      "paper-deep": {
+        "role": "neutral",
+        "displayName": "Deep Paper",
+        "canonical": "#e7dfd0",
+        "tonalRamp": [
+          "oklch(15% 0.022 83.3)",
+          "oklch(25% 0.022 83.3)",
+          "oklch(35% 0.022 83.3)",
+          "oklch(45% 0.022 83.3)",
+          "oklch(55% 0.022 83.3)",
+          "oklch(65% 0.022 83.3)",
+          "oklch(78% 0.022 83.3)",
+          "oklch(95% 0.022 83.3)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Archive Line",
+        "canonical": "#ccc1ac",
+        "tonalRamp": [
+          "oklch(15% 0.031 83.6)",
+          "oklch(25% 0.031 83.6)",
+          "oklch(35% 0.031 83.6)",
+          "oklch(45% 0.031 83.6)",
+          "oklch(55% 0.031 83.6)",
+          "oklch(65% 0.031 83.6)",
+          "oklch(78% 0.031 83.6)",
+          "oklch(95% 0.031 83.6)"
+        ]
+      },
+      "oxblood": {
+        "role": "primary",
+        "displayName": "Archive Oxblood",
+        "canonical": "#762d31",
+        "tonalRamp": [
+          "oklch(15% 0.103 19.7)",
+          "oklch(25% 0.103 19.7)",
+          "oklch(35% 0.103 19.7)",
+          "oklch(45% 0.103 19.7)",
+          "oklch(55% 0.103 19.7)",
+          "oklch(65% 0.103 19.7)",
+          "oklch(78% 0.103 19.7)",
+          "oklch(95% 0.103 19.7)"
+        ]
+      },
+      "oxblood-dark": {
+        "role": "primary",
+        "displayName": "Deep Oxblood",
+        "canonical": "#5f2328",
+        "tonalRamp": [
+          "oklch(15% 0.088 17.9)",
+          "oklch(25% 0.088 17.9)",
+          "oklch(35% 0.088 17.9)",
+          "oklch(45% 0.088 17.9)",
+          "oklch(55% 0.088 17.9)",
+          "oklch(65% 0.088 17.9)",
+          "oklch(78% 0.088 17.9)",
+          "oklch(95% 0.088 17.9)"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Ivory Cream",
+        "canonical": "#faf5e9",
+        "tonalRamp": [
+          "oklch(15% 0.017 88.0)",
+          "oklch(25% 0.017 88.0)",
+          "oklch(35% 0.017 88.0)",
+          "oklch(45% 0.017 88.0)",
+          "oklch(55% 0.017 88.0)",
+          "oklch(65% 0.017 88.0)",
+          "oklch(78% 0.017 88.0)",
+          "oklch(95% 0.017 88.0)"
+        ]
+      },
+      "copper": {
+        "role": "secondary",
+        "displayName": "Burnished Copper",
+        "canonical": "#c29a70",
+        "tonalRamp": [
+          "oklch(15% 0.074 67.5)",
+          "oklch(25% 0.074 67.5)",
+          "oklch(35% 0.074 67.5)",
+          "oklch(45% 0.074 67.5)",
+          "oklch(55% 0.074 67.5)",
+          "oklch(65% 0.074 67.5)",
+          "oklch(78% 0.074 67.5)",
+          "oklch(95% 0.074 67.5)"
+        ]
+      },
+      "success": {
+        "role": "functional",
+        "displayName": "Success Green",
+        "canonical": "#397558",
+        "tonalRamp": [
+          "oklch(15% 0.079 160.8)",
+          "oklch(25% 0.079 160.8)",
+          "oklch(35% 0.079 160.8)",
+          "oklch(45% 0.079 160.8)",
+          "oklch(55% 0.079 160.8)",
+          "oklch(65% 0.079 160.8)",
+          "oklch(78% 0.079 160.8)",
+          "oklch(95% 0.079 160.8)"
+        ]
+      },
+      "danger": {
+        "role": "functional",
+        "displayName": "Danger Red",
+        "canonical": "#a83e3e",
+        "tonalRamp": [
+          "oklch(15% 0.140 23.4)",
+          "oklch(25% 0.140 23.4)",
+          "oklch(35% 0.140 23.4)",
+          "oklch(45% 0.140 23.4)",
+          "oklch(55% 0.140 23.4)",
+          "oklch(65% 0.140 23.4)",
+          "oklch(78% 0.140 23.4)",
+          "oklch(95% 0.140 23.4)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero statement."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Collection section title."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Vehicle names in the inventory."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Controls and explanatory copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase table headers and compact metadata."
+      }
+    },
+    "shadows": [
+      {
+        "name": "editor-panel",
+        "value": "-22px 0 60px rgba(13,18,15,.26)",
+        "purpose": "Separate the full-height right-side form from the dimmed page."
+      },
+      {
+        "name": "mobile-dossier",
+        "value": "0 -20px 50px rgba(13,18,15,.26)",
+        "purpose": "Separate the bottom detail panel from the collection."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "160ms ease",
+        "purpose": "Button color changes."
+      },
+      {
+        "name": "mobile-dossier",
+        "value": "250ms ease",
+        "purpose": "Bottom-panel entrance and exit."
+      },
+      {
+        "name": "editor-arrival",
+        "value": "300ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Right-side form entrance."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-table",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile-dossier",
+        "value": "760px"
+      },
+      {
+        "name": "stacked-records",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Masthead Action",
+      "kind": "button",
+      "description": "Copper Add vehicle action in the dark masthead.",
+      "html": "<button class=\"ds-masthead-action\">Add vehicle</button>",
+      "css": ".ds-masthead-action{min-height:44px;padding:0 16px;border:1px solid var(--copper,#c29a70);border-radius:3px;background:var(--copper,#c29a70);color:#1f241f;font:600 16px Barlow,sans-serif;cursor:pointer;transition:background-color .16s ease}.ds-masthead-action:hover{background:#d4ad80}.ds-masthead-action:focus-visible{outline:3px solid var(--copper,#c29a70);outline-offset:3px}.ds-masthead-action:active{background:#b88c5d}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main form and empty-state action.",
+      "html": "<button class=\"ds-button-primary\">Add vehicle</button>",
+      "css": ".ds-button-primary{min-height:42px;padding:0 16px;border:1px solid var(--wine,#762d31);border-radius:3px;background:var(--wine,#762d31);color:#fff8ef;font:600 16px Barlow,sans-serif;cursor:pointer;transition:background-color .16s ease,border-color .16s ease}.ds-button-primary:hover{background:var(--wine-dark,#5f2328);border-color:var(--wine-dark,#5f2328)}.ds-button-primary:focus-visible{outline:3px solid var(--copper,#c29a70);outline-offset:3px}.ds-button-primary:active{background:#491b20}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Secondary form action on paper.",
+      "html": "<button class=\"ds-button-quiet\">Cancel</button>",
+      "css": ".ds-button-quiet{min-height:42px;padding:0 16px;border:1px solid var(--line,#ccc1ac);border-radius:3px;background:transparent;color:var(--ink,#222824);font:600 16px Barlow,sans-serif;cursor:pointer;transition:background-color .16s ease}.ds-button-quiet:hover{background:var(--paper-deep,#e7dfd0)}.ds-button-quiet:focus-visible{outline:3px solid var(--copper,#c29a70);outline-offset:3px}.ds-button-quiet:active{background:#ded3c1}"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Destructive record action.",
+      "html": "<button class=\"ds-button-danger\">Delete</button>",
+      "css": ".ds-button-danger{min-height:42px;padding:0 16px;border:1px solid #cfa8a0;border-radius:3px;background:transparent;color:var(--red,#a83e3e);font:600 16px Barlow,sans-serif;cursor:pointer;transition:background-color .16s ease}.ds-button-danger:hover{background:#f2ded8}.ds-button-danger:focus-visible{outline:3px solid var(--copper,#c29a70);outline-offset:3px}.ds-button-danger:active{background:#e7c8c1}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Inventory search on the warm paper canvas.",
+      "html": "<label class=\"ds-search-label\" for=\"ds-search\">Search vehicles</label><input id=\"ds-search\" class=\"ds-search\" type=\"search\" placeholder=\"Search ID, make, model or registration\">",
+      "css": ".ds-search-label{display:block;margin-bottom:7px;color:#394239;font:600 12px Barlow,sans-serif}.ds-search{width:100%;height:44px;padding:0 14px;border:1px solid #bdb29e;border-radius:3px;background:#faf7ef;color:var(--ink,#222824);font:400 16px Barlow,sans-serif}.ds-search:hover{border-color:#9f927d}.ds-search:focus{outline:none;border-color:var(--wine,#762d31);box-shadow:0 0 0 2px #d9aca8}.ds-search:focus-visible{outline:3px solid var(--copper,#c29a70);outline-offset:3px}"
+    },
+    {
+      "name": "Vehicle Dossier",
+      "kind": "card",
+      "refersTo": "dossier",
+      "description": "Selected vehicle panel with registration and key specifications.",
+      "html": "<aside class=\"ds-dossier\"><h3 class=\"ds-dossier-title\">Aston Martin DB5</h3><span class=\"ds-dossier-plate\">ABC 123</span><div class=\"ds-dossier-spec\"><span>VALUATION</span><strong>€125,000.00</strong></div></aside>",
+      "css": ".ds-dossier{min-height:250px;padding:25px 27px 30px;background:var(--ink,#222824);color:#f6eddd;font-family:Barlow,sans-serif}.ds-dossier:before{content:\"\";display:block;width:66px;height:2px;margin-bottom:23px;background:var(--copper,#c29a70)}.ds-dossier-title{margin:0 0 18px;font:400 40px/1.03 Newsreader,Georgia,serif;letter-spacing:-.02em}.ds-dossier-plate{display:inline-block;padding:7px 10px;border:1px solid #9c8770;font-size:13px;letter-spacing:.08em}.ds-dossier-spec{display:flex;justify-content:space-between;gap:16px;margin-top:27px;padding-top:20px;border-top:1px solid #677068;font-size:14px}.ds-dossier-spec span{color:#c7b9a6;font-size:11px;letter-spacing:.09em}.ds-dossier:focus-within{outline:3px solid var(--copper,#c29a70);outline-offset:3px}"
+    },
+    {
+      "name": "Inventory Record",
+      "kind": "custom",
+      "description": "Dense aligned vehicle row with serif name and clear registration.",
+      "html": "<div class=\"ds-record\"><div><button class=\"ds-record-name\">Porsche 911</button><small>RECORD 001</small></div><strong>ABC 123</strong><span>€85,000.00</span></div>",
+      "css": ".ds-record{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:16px;align-items:center;padding:16px 10px;border-top:1px solid var(--line,#ccc1ac);background:var(--paper,#f1ece2);color:var(--ink,#222824);font:400 14px Barlow,sans-serif}.ds-record:hover{background:#e5dac8}.ds-record-name{display:block;padding:0;border:0;background:transparent;color:inherit;font:500 24px/1.1 Newsreader,Georgia,serif;text-align:left;cursor:pointer}.ds-record-name:hover{color:var(--wine,#762d31);text-decoration:underline;text-underline-offset:4px}.ds-record-name:focus-visible{outline:3px solid var(--copper,#c29a70);outline-offset:3px}.ds-record small{display:block;margin-top:4px;color:#676b61;font:400 11px Barlow,sans-serif;letter-spacing:.04em}.ds-record strong{letter-spacing:.04em}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Coachbuilder's Archive",
+    "overview": "The register presents cars with the care of an automotive editorial while remaining a working inventory. Warm paper, oxblood, graphite ink, and restrained copper suggest leather and metal without imitating a literal ledger. A single automotive image sets the atmosphere; vehicle names and records carry the daily work.\n\nThe same visual system serves a personal collection and a dealership's stock. Editorial serif identifies the place and the machines; precise sans type keeps controls, labels, and data quick to scan. Density comes from aligned rows and a compact summary, with a selected vehicle promoted into a dark dossier.",
+    "keyCharacteristics": [
+      "Warm, tactile color with a dark graphite masthead and dossier.",
+      "Large serif identity and vehicle names paired with small, orderly sans labels.",
+      "A dense collection table beside a selected record on wide screens.",
+      "Restrained copper accents and one photographic strip."
+    ],
+    "rules": [
+      {
+        "name": "The Accent Rule",
+        "body": "Use oxblood for action and copper for the archive's identity and focus; keep both selective so the vehicle data remains prominent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Reserve Newsreader for identity and vehicle emphasis; use Barlow for operational text and data.",
+        "section": "typography"
+      },
+      {
+        "name": "The Overlay Rule",
+        "body": "Save pronounced shadows for panels that cover the workspace; use borders and tonal contrast for resting content.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep vehicle names visually prominent and registrations and prices easy to compare.",
+      "Do pair serif display moments with sans controls and data.",
+      "Do use the paper, ink, oxblood, and copper roles consistently across personal and dealer workflows.",
+      "Do retain visible focus and clear empty, error, and success states."
+    ],
+    "donts": [
+      "Don't turn the working inventory into a loose grid of white cards.",
+      "Don't apply overlay shadows to every resting surface.",
+      "Don't use decorative automotive motifs in place of clear controls or data labels."
+    ]
+  }
+}
