@@ -1,0 +1,23 @@
+# NetBeans generated files
+**/build/
+**/dist/
+**/target/
+**/nbproject/private/
+
+# Java
+*.class
+*.jar.original
+hs_err_pid*
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
